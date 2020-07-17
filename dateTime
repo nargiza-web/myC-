@@ -1,0 +1,11 @@
+using System;
+
+public class Program
+{
+    public static string FormatDate(string date)
+    {
+      DateTime inputDate = DateTime.Parse(date);
+      return inputDate.ToString("yyyydMM");
+      }
+  }
+    
